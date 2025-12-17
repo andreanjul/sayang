@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #fff5f7,
+        #fde8ec,
+        #fbe3e8
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Card */
+.card {
+    background: #ffffff;
+    padding: 45px 50px;
+    border-radius: 20px;
+    text-align: center;
+    width: 480px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* Judul */
+.card h1 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.card h1 span {
+    color: #e63946;
+}
+
+/* Paragraf */
+.card p {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #e63946;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #d62839;
+    transform: scale(1.05);
+}
